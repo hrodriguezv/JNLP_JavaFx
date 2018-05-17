@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="http://localhost:8080/" href="JNLP_JavaFx.jnlp">
+	<information>
+		<title>Jnlp JavaFx Testing</title>
+		<vendor>Consultec</vendor>
+		<homepage href="http://localhost:8080/" />
+		<description>Consultec TI - Testing</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.8+" />
+		<jar href="JNLP_JavaFx.jar" />
+	</resources>
+	<application-desc main-class="v1.JNLP_JavaFx.MainApp" />
+</jnlp>
